@@ -4,6 +4,8 @@
  */
 package deleteeme;
 
+import newpackage.Person;
+
 /**
  *
  * @author user
@@ -11,11 +13,9 @@ package deleteeme;
 public class Deleteeme
 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args)
     {
-        // TODO code application logic here
+        Person p1 = new Person("Lone");
     }
 }
